@@ -264,3 +264,714 @@ DEBUG;2021-03-13 16:05:31;<ipython-input-202-2ba20bb32d06>;<ipython-input-202-2b
 DEBUG;2021-03-13 16:05:32;<ipython-input-202-2ba20bb32d06>;<ipython-input-202-2ba20bb32d06>;498;Gerando matriz de confusão para o modelo RandomForestClassifier
 INFO;2021-03-13 16:05:32;<ipython-input-202-2ba20bb32d06>;<ipython-input-202-2ba20bb32d06>;511;Matriz de confusão gerada para o modelo RandomForestClassifier
 DEBUG;2021-03-13 16:05:33;<ipython-input-202-2ba20bb32d06>;<ipython-input-202-2ba20bb32d06>;538;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-17 21:07:16;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:07:16;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-17 21:07:18;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;141;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-17 21:07:19;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;168;Métricas computadas com sucesso nos dados de treino em 0.179 segundos
+DEBUG;2021-03-17 21:07:19;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;202;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-17 21:07:19;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;229;Métricas computadas com sucesso nos dados de validação em 0.017 segundos
+DEBUG;2021-03-17 21:07:19;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;141;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-17 21:07:20;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;168;Métricas computadas com sucesso nos dados de treino em 1.318 segundos
+DEBUG;2021-03-17 21:07:20;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;202;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-17 21:07:20;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;229;Métricas computadas com sucesso nos dados de validação em 0.041 segundos
+DEBUG;2021-03-17 21:07:30;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;465;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-17 21:07:30;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;473;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:07:30;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;490;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-17 21:07:30;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;498;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-17 21:07:30;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;511;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:07:30;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;473;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:07:30;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;490;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-17 21:07:31;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;498;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-17 21:07:32;<ipython-input-21-2ba20bb32d06>;<ipython-input-21-2ba20bb32d06>;511;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:08:11;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:08:11;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-17 21:08:12;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;141;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-17 21:08:12;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;168;Métricas computadas com sucesso nos dados de treino em 0.167 segundos
+DEBUG;2021-03-17 21:08:12;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;202;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-17 21:08:12;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;229;Métricas computadas com sucesso nos dados de validação em 0.018 segundos
+DEBUG;2021-03-17 21:08:12;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;141;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-17 21:08:14;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;168;Métricas computadas com sucesso nos dados de treino em 1.254 segundos
+DEBUG;2021-03-17 21:08:14;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;202;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-17 21:08:14;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;229;Métricas computadas com sucesso nos dados de validação em 0.032 segundos
+DEBUG;2021-03-17 21:08:15;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;465;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-17 21:08:15;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;473;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:08:15;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;490;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-17 21:08:15;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;498;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-17 21:08:16;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;511;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:08:16;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;473;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:08:16;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;490;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-17 21:08:17;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;498;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-17 21:08:17;<ipython-input-26-56bac5e18654>;<ipython-input-26-56bac5e18654>;511;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:08:59;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:08:59;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-17 21:09:00;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;141;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-17 21:09:00;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;168;Métricas computadas com sucesso nos dados de treino em 0.2 segundos
+DEBUG;2021-03-17 21:09:00;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;202;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-17 21:09:00;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;229;Métricas computadas com sucesso nos dados de validação em 0.014 segundos
+DEBUG;2021-03-17 21:09:00;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;141;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-17 21:09:01;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;168;Métricas computadas com sucesso nos dados de treino em 1.215 segundos
+DEBUG;2021-03-17 21:09:01;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;202;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-17 21:09:01;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;229;Métricas computadas com sucesso nos dados de validação em 0.029 segundos
+DEBUG;2021-03-17 21:09:03;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;465;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-17 21:09:03;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;473;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:09:03;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;490;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-17 21:09:03;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;498;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-17 21:09:03;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;511;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:09:03;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;473;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:09:03;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;490;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-17 21:09:05;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;498;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-17 21:09:05;<ipython-input-31-78d59107f3bf>;<ipython-input-31-78d59107f3bf>;511;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:11:55;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:11:55;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-17 21:11:56;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;141;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-17 21:11:56;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;168;Métricas computadas com sucesso nos dados de treino em 0.213 segundos
+DEBUG;2021-03-17 21:11:56;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;202;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-17 21:11:56;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;229;Métricas computadas com sucesso nos dados de validação em 0.017 segundos
+DEBUG;2021-03-17 21:11:56;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;141;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-17 21:11:57;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;168;Métricas computadas com sucesso nos dados de treino em 1.213 segundos
+DEBUG;2021-03-17 21:11:57;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;202;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-17 21:11:57;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;229;Métricas computadas com sucesso nos dados de validação em 0.031 segundos
+DEBUG;2021-03-17 21:11:58;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;465;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-17 21:11:58;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;473;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:11:58;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;490;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-17 21:11:59;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;498;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-17 21:11:59;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;511;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:11:59;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;473;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:11:59;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;490;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-17 21:12:00;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;498;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-17 21:12:00;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;511;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:13:05;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;545;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-17 21:13:05;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;556;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:13:05;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;569;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+INFO;2021-03-17 21:13:06;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;579;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:13:06;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;556;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:13:06;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;569;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+INFO;2021-03-17 21:13:06;<ipython-input-36-8a021fe7d231>;<ipython-input-36-8a021fe7d231>;579;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:15:04;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:15:04;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-17 21:15:05;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;141;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-17 21:15:05;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;168;Métricas computadas com sucesso nos dados de treino em 0.174 segundos
+DEBUG;2021-03-17 21:15:05;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;202;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-17 21:15:05;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;229;Métricas computadas com sucesso nos dados de validação em 0.018 segundos
+DEBUG;2021-03-17 21:15:05;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;141;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-17 21:15:06;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;168;Métricas computadas com sucesso nos dados de treino em 1.32 segundos
+DEBUG;2021-03-17 21:15:06;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;202;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-17 21:15:06;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;229;Métricas computadas com sucesso nos dados de validação em 0.028 segundos
+DEBUG;2021-03-17 21:15:08;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;465;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-17 21:15:08;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;473;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:15:08;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;490;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-17 21:15:08;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;498;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-17 21:15:09;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;511;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:15:09;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;473;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:15:09;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;490;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-17 21:15:10;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;498;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-17 21:15:10;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;511;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:15:11;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;545;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-17 21:15:11;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;556;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:15:11;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;569;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+INFO;2021-03-17 21:15:11;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;580;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+DEBUG;2021-03-17 21:15:11;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;556;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:15:11;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;569;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+INFO;2021-03-17 21:15:11;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;580;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+DEBUG;2021-03-17 21:19:49;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;616;Retornando estimator do modelo RandomForestClassifier já treinado
+DEBUG;2021-03-17 21:20:21;<ipython-input-43-d5e1e26431c1>;<ipython-input-43-d5e1e26431c1>;616;Retornando estimator do modelo RandomForestClassifier já treinado
+DEBUG;2021-03-24 20:31:00;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-24 20:31:00;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-24 20:31:00;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;141;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-24 20:31:01;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;168;Métricas computadas com sucesso nos dados de treino em 0.149 segundos
+DEBUG;2021-03-24 20:31:01;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;202;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-24 20:31:01;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;229;Métricas computadas com sucesso nos dados de validação em 0.012 segundos
+DEBUG;2021-03-24 20:31:01;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;141;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-24 20:31:02;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;168;Métricas computadas com sucesso nos dados de treino em 1.462 segundos
+DEBUG;2021-03-24 20:31:02;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;202;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-24 20:31:02;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;229;Métricas computadas com sucesso nos dados de validação em 0.028 segundos
+DEBUG;2021-03-24 20:31:04;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;465;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-24 20:31:04;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;473;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-24 20:31:04;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;490;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-24 20:31:04;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;498;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-24 20:31:04;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;511;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-24 20:31:04;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;473;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-24 20:31:04;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;490;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-24 20:31:05;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;498;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-24 20:31:05;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;511;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-24 20:31:06;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;545;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-24 20:31:06;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;556;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-24 20:31:06;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;569;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+INFO;2021-03-24 20:31:06;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;580;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+DEBUG;2021-03-24 20:31:06;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;556;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-24 20:31:07;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;569;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+INFO;2021-03-24 20:31:07;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;580;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+DEBUG;2021-03-24 20:31:08;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;682;Retornando estimator do modelo RandomForestClassifier já treinado
+DEBUG;2021-03-24 21:38:10;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;682;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-24 21:38:38;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;682;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-24 21:39:02;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;682;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-24 21:39:13;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;682;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-24 21:39:34;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;682;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-24 21:40:04;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;682;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-24 21:40:21;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;682;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-25 20:32:21;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-25 20:32:21;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-25 20:32:22;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;141;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-25 20:32:22;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;168;Métricas computadas com sucesso nos dados de treino em 0.17 segundos
+DEBUG;2021-03-25 20:32:22;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;202;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-25 20:32:22;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;229;Métricas computadas com sucesso nos dados de validação em 0.015 segundos
+DEBUG;2021-03-25 20:32:22;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;141;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-25 20:32:24;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;168;Métricas computadas com sucesso nos dados de treino em 1.792 segundos
+DEBUG;2021-03-25 20:32:24;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;202;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-25 20:32:24;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;229;Métricas computadas com sucesso nos dados de validação em 0.038 segundos
+DEBUG;2021-03-25 20:32:25;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;465;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-25 20:32:25;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;473;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-25 20:32:25;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;490;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-25 20:32:25;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;498;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-25 20:32:25;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;511;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-25 20:32:25;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;473;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-25 20:32:25;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;490;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-25 20:32:26;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;498;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-25 20:32:26;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;511;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-25 20:32:27;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;545;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-25 20:32:27;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;556;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-25 20:32:27;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;569;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+INFO;2021-03-25 20:32:27;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;580;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+DEBUG;2021-03-25 20:32:27;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;556;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-25 20:32:27;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;569;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+INFO;2021-03-25 20:32:27;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;580;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+DEBUG;2021-03-25 20:32:28;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;682;Retornando estimator do modelo RandomForestClassifier já treinado
+DEBUG;2021-03-25 20:32:35;<ipython-input-13-5c4f4e7655c0>;<ipython-input-13-5c4f4e7655c0>;682;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-25 21:12:53;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-25 21:12:53;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-25 21:12:53;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-25 21:12:53;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-25 21:12:56;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;141;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+DEBUG;2021-03-25 21:12:56;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;141;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-25 21:12:56;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;168;Métricas computadas com sucesso nos dados de treino em 0.198 segundos
+INFO;2021-03-25 21:12:56;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;168;Métricas computadas com sucesso nos dados de treino em 0.198 segundos
+DEBUG;2021-03-25 21:12:56;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;202;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+DEBUG;2021-03-25 21:12:56;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;202;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-25 21:12:56;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;229;Métricas computadas com sucesso nos dados de validação em 0.015 segundos
+INFO;2021-03-25 21:12:56;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;229;Métricas computadas com sucesso nos dados de validação em 0.015 segundos
+DEBUG;2021-03-25 21:12:56;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;141;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+DEBUG;2021-03-25 21:12:56;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;141;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-25 21:12:58;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;168;Métricas computadas com sucesso nos dados de treino em 1.379 segundos
+INFO;2021-03-25 21:12:58;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;168;Métricas computadas com sucesso nos dados de treino em 1.379 segundos
+DEBUG;2021-03-25 21:12:58;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;202;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+DEBUG;2021-03-25 21:12:58;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;202;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-25 21:12:58;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;229;Métricas computadas com sucesso nos dados de validação em 0.033 segundos
+INFO;2021-03-25 21:12:58;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;229;Métricas computadas com sucesso nos dados de validação em 0.033 segundos
+DEBUG;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;465;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;465;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;473;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;473;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;490;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;490;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;498;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+DEBUG;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;498;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;511;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+INFO;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;511;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;473;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;473;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;490;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-25 21:13:11;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;490;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-25 21:13:13;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;498;Gerando matriz de confusão para o modelo RandomForestClassifier
+DEBUG;2021-03-25 21:13:13;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;498;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-25 21:13:13;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;511;Matriz de confusão gerada para o modelo RandomForestClassifier
+INFO;2021-03-25 21:13:13;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;511;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-25 21:13:14;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;545;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-25 21:13:14;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;545;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-25 21:13:14;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;556;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-25 21:13:14;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;556;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-25 21:13:14;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;569;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-25 21:13:14;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;569;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+INFO;2021-03-25 21:13:15;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;580;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+INFO;2021-03-25 21:13:15;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;580;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+DEBUG;2021-03-25 21:13:15;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;556;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-25 21:13:15;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;556;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-25 21:13:15;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;569;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-25 21:13:15;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;569;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+INFO;2021-03-25 21:13:15;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;580;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+INFO;2021-03-25 21:13:15;<ipython-input-32-5c4f4e7655c0>;<ipython-input-32-5c4f4e7655c0>;580;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+DEBUG;2021-03-26 18:04:52;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:04:52;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:04:52;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;141;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 18:04:52;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;168;Métricas computadas com sucesso nos dados de treino em 0.201 segundos
+DEBUG;2021-03-26 18:04:52;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;202;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 18:04:52;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;229;Métricas computadas com sucesso nos dados de validação em 0.017 segundos
+DEBUG;2021-03-26 18:04:52;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;141;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 18:04:54;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;168;Métricas computadas com sucesso nos dados de treino em 1.447 segundos
+DEBUG;2021-03-26 18:04:54;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;202;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 18:04:54;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;229;Métricas computadas com sucesso nos dados de validação em 0.064 segundos
+DEBUG;2021-03-26 18:04:55;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;465;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-26 18:04:55;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;473;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:04:55;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;490;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-26 18:04:55;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;498;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-26 18:04:56;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;511;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:04:56;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;473;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-26 18:04:56;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;490;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-26 18:04:57;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;498;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-26 18:04:57;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;511;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-26 18:04:58;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;545;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-26 18:04:58;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;556;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:04:58;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;569;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+INFO;2021-03-26 18:04:58;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;580;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:04:58;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;556;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-26 18:04:58;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;569;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+INFO;2021-03-26 18:04:58;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;580;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+DEBUG;2021-03-26 18:04:59;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;682;Retornando estimator do modelo RandomForestClassifier já treinado
+DEBUG;2021-03-26 18:05:05;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;682;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 18:08:54;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:08:54;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:08:54;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 18:09:55;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:09:55;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:09:56;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 18:10:48;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:10:48;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:10:49;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 18:14:50;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:14:51;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:14:51;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 18:21:05;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:21:05;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:21:05;<ipython-input-15-5c4f4e7655c0>;<ipython-input-15-5c4f4e7655c0>;68;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 18:21:08;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:21:08;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:21:08;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;68;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 18:23:13;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:23:13;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:23:13;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;68;Treinando modelo SVC
+DEBUG;2021-03-26 18:24:10;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:24:10;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:24:10;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;68;Treinando modelo LogisticRegression
+DEBUG;2021-03-26 18:29:40;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:29:40;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:29:40;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;68;Treinando modelo LogisticRegression
+ERROR;2021-03-26 18:29:40;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;110;Erro ao treinar modelos. Exception lançada: {ae}
+WARNING;2021-03-26 18:29:40;<ipython-input-50-5c4f4e7655c0>;<ipython-input-50-5c4f4e7655c0>;111;Treinamento do(s) modelo(s) não realizado
+DEBUG;2021-03-26 18:30:50;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:30:50;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:30:51;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;68;Treinando modelo LogisticRegression
+ERROR;2021-03-26 18:30:51;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;110;Erro ao treinar modelos. Exception lançada: 'str' object has no attribute 'decode'
+WARNING;2021-03-26 18:30:51;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;111;Treinamento do(s) modelo(s) não realizado
+DEBUG;2021-03-26 18:31:37;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:31:37;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:31:37;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;68;Treinando modelo LogisticRegression
+ERROR;2021-03-26 18:31:37;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;110;Erro ao treinar modelos. Exception lançada: 'str' object has no attribute 'decode'
+WARNING;2021-03-26 18:31:37;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;111;Treinamento do(s) modelo(s) não realizado
+DEBUG;2021-03-26 18:32:20;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:32:20;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:32:20;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;68;Treinando modelo LogisticRegression
+DEBUG;2021-03-26 18:32:25;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;141;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 18:32:26;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;173;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:32:26;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;202;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 18:32:26;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;234;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:34:00;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;682;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 18:34:42;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;682;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 18:35:06;<ipython-input-78-fed9893b15e4>;<ipython-input-78-fed9893b15e4>;682;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 18:48:17;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:48:17;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:48:17;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;68;Treinando modelo LogisticRegression
+DEBUG;2021-03-26 18:48:19;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 18:48:19;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;177;Erro ao computar as métricas. Exception lançada: Length of values (4) does not match length of index (3)
+DEBUG;2021-03-26 18:48:19;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;206;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 18:48:19;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;238;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:48:23;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;686;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 18:50:27;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:50:27;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:50:33;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 18:50:33;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;177;Erro ao computar as métricas. Exception lançada: Length of values (4) does not match length of index (3)
+DEBUG;2021-03-26 18:50:33;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;206;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 18:50:33;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;238;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:50:38;<ipython-input-104-473b5db110ec>;<ipython-input-104-473b5db110ec>;686;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 18:51:17;<ipython-input-120-9ffb993c421e>;<ipython-input-120-9ffb993c421e>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:51:17;<ipython-input-120-9ffb993c421e>;<ipython-input-120-9ffb993c421e>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:51:19;<ipython-input-120-9ffb993c421e>;<ipython-input-120-9ffb993c421e>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 18:51:19;<ipython-input-120-9ffb993c421e>;<ipython-input-120-9ffb993c421e>;177;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:51:19;<ipython-input-120-9ffb993c421e>;<ipython-input-120-9ffb993c421e>;206;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 18:51:19;<ipython-input-120-9ffb993c421e>;<ipython-input-120-9ffb993c421e>;238;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:54:48;<ipython-input-128-ed04744a1f19>;<ipython-input-128-ed04744a1f19>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:54:48;<ipython-input-128-ed04744a1f19>;<ipython-input-128-ed04744a1f19>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:54:51;<ipython-input-128-ed04744a1f19>;<ipython-input-128-ed04744a1f19>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 18:54:51;<ipython-input-128-ed04744a1f19>;<ipython-input-128-ed04744a1f19>;178;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:54:51;<ipython-input-128-ed04744a1f19>;<ipython-input-128-ed04744a1f19>;207;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 18:54:51;<ipython-input-128-ed04744a1f19>;<ipython-input-128-ed04744a1f19>;239;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:55:11;<ipython-input-131-3cc5cc5d0d89>;<ipython-input-131-3cc5cc5d0d89>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:55:11;<ipython-input-131-3cc5cc5d0d89>;<ipython-input-131-3cc5cc5d0d89>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:55:12;<ipython-input-131-3cc5cc5d0d89>;<ipython-input-131-3cc5cc5d0d89>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 18:55:12;<ipython-input-131-3cc5cc5d0d89>;<ipython-input-131-3cc5cc5d0d89>;178;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:55:12;<ipython-input-131-3cc5cc5d0d89>;<ipython-input-131-3cc5cc5d0d89>;207;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 18:55:12;<ipython-input-131-3cc5cc5d0d89>;<ipython-input-131-3cc5cc5d0d89>;239;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:55:23;<ipython-input-134-60ea133ba0ba>;<ipython-input-134-60ea133ba0ba>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:55:23;<ipython-input-134-60ea133ba0ba>;<ipython-input-134-60ea133ba0ba>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:55:25;<ipython-input-134-60ea133ba0ba>;<ipython-input-134-60ea133ba0ba>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 18:55:25;<ipython-input-134-60ea133ba0ba>;<ipython-input-134-60ea133ba0ba>;178;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:55:25;<ipython-input-134-60ea133ba0ba>;<ipython-input-134-60ea133ba0ba>;207;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 18:55:25;<ipython-input-134-60ea133ba0ba>;<ipython-input-134-60ea133ba0ba>;239;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:55:41;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:55:42;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:55:42;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 18:55:42;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;178;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:55:42;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;207;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 18:55:42;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;239;Erro ao computar as métricas. Exception lançada: Singleton array 3 cannot be considered a valid collection.
+DEBUG;2021-03-26 18:55:58;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;687;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 18:56:38;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:56:38;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:56:38;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 18:56:39;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;178;Erro ao computar as métricas. Exception lançada: index 4 is out of bounds for axis 0 with size 4
+DEBUG;2021-03-26 18:56:39;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;207;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 18:56:39;<ipython-input-137-7d3c49a3315a>;<ipython-input-137-7d3c49a3315a>;234;Métricas computadas com sucesso nos dados de validação em 0.013 segundos
+DEBUG;2021-03-26 18:59:22;<ipython-input-159-7d3c49a3315a>;<ipython-input-159-7d3c49a3315a>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:59:22;<ipython-input-159-7d3c49a3315a>;<ipython-input-159-7d3c49a3315a>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:59:25;<ipython-input-159-7d3c49a3315a>;<ipython-input-159-7d3c49a3315a>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 18:59:25;<ipython-input-159-7d3c49a3315a>;<ipython-input-159-7d3c49a3315a>;178;Erro ao computar as métricas. Exception lançada: index 4 is out of bounds for axis 0 with size 4
+DEBUG;2021-03-26 18:59:25;<ipython-input-159-7d3c49a3315a>;<ipython-input-159-7d3c49a3315a>;207;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 18:59:25;<ipython-input-159-7d3c49a3315a>;<ipython-input-159-7d3c49a3315a>;234;Métricas computadas com sucesso nos dados de validação em 0.018 segundos
+DEBUG;2021-03-26 18:59:40;<ipython-input-162-12430f3ebed1>;<ipython-input-162-12430f3ebed1>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 18:59:40;<ipython-input-162-12430f3ebed1>;<ipython-input-162-12430f3ebed1>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 18:59:41;<ipython-input-162-12430f3ebed1>;<ipython-input-162-12430f3ebed1>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 18:59:41;<ipython-input-162-12430f3ebed1>;<ipython-input-162-12430f3ebed1>;180;Erro ao computar as métricas. Exception lançada: index 4 is out of bounds for axis 0 with size 4
+DEBUG;2021-03-26 18:59:41;<ipython-input-162-12430f3ebed1>;<ipython-input-162-12430f3ebed1>;209;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 18:59:41;<ipython-input-162-12430f3ebed1>;<ipython-input-162-12430f3ebed1>;236;Métricas computadas com sucesso nos dados de validação em 0.014 segundos
+DEBUG;2021-03-26 19:00:20;<ipython-input-165-7d3c49a3315a>;<ipython-input-165-7d3c49a3315a>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 19:00:20;<ipython-input-165-7d3c49a3315a>;<ipython-input-165-7d3c49a3315a>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 19:00:22;<ipython-input-165-7d3c49a3315a>;<ipython-input-165-7d3c49a3315a>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 19:00:22;<ipython-input-165-7d3c49a3315a>;<ipython-input-165-7d3c49a3315a>;178;Erro ao computar as métricas. Exception lançada: index 4 is out of bounds for axis 0 with size 4
+DEBUG;2021-03-26 19:00:22;<ipython-input-165-7d3c49a3315a>;<ipython-input-165-7d3c49a3315a>;207;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 19:00:22;<ipython-input-165-7d3c49a3315a>;<ipython-input-165-7d3c49a3315a>;234;Métricas computadas com sucesso nos dados de validação em 0.02 segundos
+DEBUG;2021-03-26 19:00:51;<ipython-input-168-82490baab930>;<ipython-input-168-82490baab930>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 19:00:51;<ipython-input-168-82490baab930>;<ipython-input-168-82490baab930>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 19:00:52;<ipython-input-168-82490baab930>;<ipython-input-168-82490baab930>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 19:00:52;<ipython-input-168-82490baab930>;<ipython-input-168-82490baab930>;179;Erro ao computar as métricas. Exception lançada: index 4 is out of bounds for axis 0 with size 4
+DEBUG;2021-03-26 19:00:52;<ipython-input-168-82490baab930>;<ipython-input-168-82490baab930>;208;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 19:00:52;<ipython-input-168-82490baab930>;<ipython-input-168-82490baab930>;235;Métricas computadas com sucesso nos dados de validação em 0.028 segundos
+DEBUG;2021-03-26 19:01:09;<ipython-input-171-357df8e5eedf>;<ipython-input-171-357df8e5eedf>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 19:01:09;<ipython-input-171-357df8e5eedf>;<ipython-input-171-357df8e5eedf>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 19:01:15;<ipython-input-171-357df8e5eedf>;<ipython-input-171-357df8e5eedf>;687;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 19:09:54;<ipython-input-174-bc6bab8ed216>;<ipython-input-174-bc6bab8ed216>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 19:09:54;<ipython-input-174-bc6bab8ed216>;<ipython-input-174-bc6bab8ed216>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 19:09:57;<ipython-input-174-bc6bab8ed216>;<ipython-input-174-bc6bab8ed216>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:09:57;<ipython-input-174-bc6bab8ed216>;<ipython-input-174-bc6bab8ed216>;175;Métricas computadas com sucesso nos dados de treino em 0.202 segundos
+DEBUG;2021-03-26 19:09:57;<ipython-input-174-bc6bab8ed216>;<ipython-input-174-bc6bab8ed216>;210;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 19:09:57;<ipython-input-174-bc6bab8ed216>;<ipython-input-174-bc6bab8ed216>;248;Erro ao computar as métricas. Exception lançada: 'accuracy'
+DEBUG;2021-03-26 19:09:57;<ipython-input-174-bc6bab8ed216>;<ipython-input-174-bc6bab8ed216>;142;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:09:58;<ipython-input-174-bc6bab8ed216>;<ipython-input-174-bc6bab8ed216>;175;Métricas computadas com sucesso nos dados de treino em 1.38 segundos
+DEBUG;2021-03-26 19:09:58;<ipython-input-174-bc6bab8ed216>;<ipython-input-174-bc6bab8ed216>;210;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+ERROR;2021-03-26 19:09:58;<ipython-input-174-bc6bab8ed216>;<ipython-input-174-bc6bab8ed216>;248;Erro ao computar as métricas. Exception lançada: 'accuracy'
+DEBUG;2021-03-26 19:11:01;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 19:11:01;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 19:11:10;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:11:10;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 0.204 segundos
+DEBUG;2021-03-26 19:11:10;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;210;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 19:11:10;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.014 segundos
+DEBUG;2021-03-26 19:11:10;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;142;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:11:11;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 1.429 segundos
+DEBUG;2021-03-26 19:11:11;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;210;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 19:11:11;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.033 segundos
+DEBUG;2021-03-26 19:11:24;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 19:11:24;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 19:11:25;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 19:11:26;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;180;Erro ao computar as métricas. Exception lançada: 'accuracy'
+DEBUG;2021-03-26 19:11:26;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;210;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 19:11:26;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;248;Erro ao computar as métricas. Exception lançada: 'accuracy'
+DEBUG;2021-03-26 19:16:14;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 19:16:14;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 19:16:16;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:16:17;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 0.208 segundos
+DEBUG;2021-03-26 19:16:17;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;210;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 19:16:17;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.018 segundos
+DEBUG;2021-03-26 19:16:17;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;142;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:16:18;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 1.433 segundos
+DEBUG;2021-03-26 19:16:18;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;210;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 19:16:18;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.036 segundos
+DEBUG;2021-03-26 19:17:02;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 19:17:02;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 19:17:50;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 19:17:50;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 19:17:54;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:17:54;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 0.162 segundos
+DEBUG;2021-03-26 19:17:54;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;210;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 19:17:54;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.011 segundos
+DEBUG;2021-03-26 19:17:54;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;142;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:17:55;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 1.288 segundos
+DEBUG;2021-03-26 19:17:55;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;210;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 19:17:55;<ipython-input-177-8cd52241ff4a>;<ipython-input-177-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.018 segundos
+DEBUG;2021-03-26 19:19:27;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 19:19:28;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 19:19:28;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;68;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 19:19:33;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:19:33;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 0.213 segundos
+DEBUG;2021-03-26 19:19:33;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;210;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 19:19:33;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.011 segundos
+DEBUG;2021-03-26 19:19:33;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;142;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:19:34;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 1.19 segundos
+DEBUG;2021-03-26 19:19:34;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;210;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 19:19:34;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.023 segundos
+DEBUG;2021-03-26 19:19:34;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;142;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:19:40;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 5.769 segundos
+DEBUG;2021-03-26 19:19:40;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;210;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 19:19:40;<ipython-input-207-8cd52241ff4a>;<ipython-input-207-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.014 segundos
+DEBUG;2021-03-26 19:20:54;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 19:20:54;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 19:20:54;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;68;Treinando modelo SVC
+DEBUG;2021-03-26 19:20:55;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;68;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 19:20:59;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:21:00;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 0.177 segundos
+DEBUG;2021-03-26 19:21:00;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;210;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 19:21:00;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.01 segundos
+DEBUG;2021-03-26 19:21:00;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;142;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:21:01;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 1.084 segundos
+DEBUG;2021-03-26 19:21:01;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;210;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 19:21:01;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.017 segundos
+DEBUG;2021-03-26 19:21:01;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;142;Computando métricas do modelo SVC utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:21:02;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 1.467 segundos
+DEBUG;2021-03-26 19:21:02;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;210;Computando métricas do modelo SVC utilizando dados de teste
+INFO;2021-03-26 19:21:02;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.026 segundos
+DEBUG;2021-03-26 19:21:02;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;142;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 19:21:08;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 5.811 segundos
+DEBUG;2021-03-26 19:21:08;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;210;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 19:21:08;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.013 segundos
+DEBUG;2021-03-26 19:21:38;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;482;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-26 19:21:38;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;490;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 19:21:38;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;507;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-26 19:21:38;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;515;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+ERROR;2021-03-26 19:21:38;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;530;Erro ao gerar a matriz para o modelo DecisionTreeClassifier. Exception lançada: axis 1 is out of bounds for array of dimension 1
+DEBUG;2021-03-26 19:21:38;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;490;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-26 19:21:38;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;507;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-26 19:21:40;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;515;Gerando matriz de confusão para o modelo RandomForestClassifier
+ERROR;2021-03-26 19:21:40;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;530;Erro ao gerar a matriz para o modelo RandomForestClassifier. Exception lançada: axis 1 is out of bounds for array of dimension 1
+DEBUG;2021-03-26 19:21:40;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;490;Retornando dados de treino e validação para o modelo SVC
+DEBUG;2021-03-26 19:21:40;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;507;Realizando predições para os dados de treino e validação (SVC)
+DEBUG;2021-03-26 19:21:41;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;515;Gerando matriz de confusão para o modelo SVC
+ERROR;2021-03-26 19:21:41;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;530;Erro ao gerar a matriz para o modelo SVC. Exception lançada: axis 1 is out of bounds for array of dimension 1
+DEBUG;2021-03-26 19:21:41;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;490;Retornando dados de treino e validação para o modelo LGBMClassifier
+DEBUG;2021-03-26 19:21:41;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;507;Realizando predições para os dados de treino e validação (LGBMClassifier)
+DEBUG;2021-03-26 19:21:47;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;515;Gerando matriz de confusão para o modelo LGBMClassifier
+ERROR;2021-03-26 19:21:47;<ipython-input-212-8cd52241ff4a>;<ipython-input-212-8cd52241ff4a>;530;Erro ao gerar a matriz para o modelo LGBMClassifier. Exception lançada: axis 1 is out of bounds for array of dimension 1
+DEBUG;2021-03-26 20:25:04;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:25:04;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 20:25:04;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;68;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 20:25:07;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 20:25:07;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 0.318 segundos
+DEBUG;2021-03-26 20:25:07;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;210;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 20:25:07;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.04 segundos
+DEBUG;2021-03-26 20:25:07;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;142;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 20:25:08;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 1.393 segundos
+DEBUG;2021-03-26 20:25:08;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;210;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 20:25:08;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.023 segundos
+DEBUG;2021-03-26 20:25:08;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;142;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 20:25:18;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;175;Métricas computadas com sucesso nos dados de treino em 9.351 segundos
+DEBUG;2021-03-26 20:25:18;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;210;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 20:25:18;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;243;Métricas computadas com sucesso nos dados de validação em 0.034 segundos
+DEBUG;2021-03-26 20:26:01;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;482;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-26 20:26:01;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;490;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:26:01;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;507;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-26 20:26:01;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;515;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+ERROR;2021-03-26 20:26:01;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;530;Erro ao gerar a matriz para o modelo DecisionTreeClassifier. Exception lançada: axis 1 is out of bounds for array of dimension 1
+DEBUG;2021-03-26 20:26:01;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;490;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-26 20:26:01;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;507;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-26 20:26:03;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;515;Gerando matriz de confusão para o modelo RandomForestClassifier
+ERROR;2021-03-26 20:26:03;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;530;Erro ao gerar a matriz para o modelo RandomForestClassifier. Exception lançada: axis 1 is out of bounds for array of dimension 1
+DEBUG;2021-03-26 20:26:03;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;490;Retornando dados de treino e validação para o modelo LGBMClassifier
+DEBUG;2021-03-26 20:26:03;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;507;Realizando predições para os dados de treino e validação (LGBMClassifier)
+DEBUG;2021-03-26 20:26:08;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;515;Gerando matriz de confusão para o modelo LGBMClassifier
+ERROR;2021-03-26 20:26:08;<ipython-input-219-8cd52241ff4a>;<ipython-input-219-8cd52241ff4a>;530;Erro ao gerar a matriz para o modelo LGBMClassifier. Exception lançada: axis 1 is out of bounds for array of dimension 1
+DEBUG;2021-03-26 20:28:45;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;68;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:28:45;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;68;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 20:28:45;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;68;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 20:28:48;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;143;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 20:28:48;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;176;Métricas computadas com sucesso nos dados de treino em 0.211 segundos
+DEBUG;2021-03-26 20:28:48;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;212;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 20:28:48;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;245;Métricas computadas com sucesso nos dados de validação em 0.015 segundos
+DEBUG;2021-03-26 20:28:48;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;143;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 20:28:49;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;176;Métricas computadas com sucesso nos dados de treino em 1.205 segundos
+DEBUG;2021-03-26 20:28:49;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;212;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 20:28:49;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;245;Métricas computadas com sucesso nos dados de validação em 0.019 segundos
+DEBUG;2021-03-26 20:28:49;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;143;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 20:28:55;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;176;Métricas computadas com sucesso nos dados de treino em 5.686 segundos
+DEBUG;2021-03-26 20:28:55;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;212;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 20:28:55;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;245;Métricas computadas com sucesso nos dados de validação em 0.016 segundos
+DEBUG;2021-03-26 20:28:57;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;487;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-26 20:28:57;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;495;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:28:57;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;512;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-26 20:28:57;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;520;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+ERROR;2021-03-26 20:28:57;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;535;Erro ao gerar a matriz para o modelo DecisionTreeClassifier. Exception lançada: axis 1 is out of bounds for array of dimension 1
+DEBUG;2021-03-26 20:28:57;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;495;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-26 20:28:57;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;512;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-26 20:28:59;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;520;Gerando matriz de confusão para o modelo RandomForestClassifier
+ERROR;2021-03-26 20:28:59;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;535;Erro ao gerar a matriz para o modelo RandomForestClassifier. Exception lançada: axis 1 is out of bounds for array of dimension 1
+DEBUG;2021-03-26 20:28:59;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;495;Retornando dados de treino e validação para o modelo LGBMClassifier
+DEBUG;2021-03-26 20:28:59;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;512;Realizando predições para os dados de treino e validação (LGBMClassifier)
+DEBUG;2021-03-26 20:29:05;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;520;Gerando matriz de confusão para o modelo LGBMClassifier
+ERROR;2021-03-26 20:29:05;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;535;Erro ao gerar a matriz para o modelo LGBMClassifier. Exception lançada: axis 1 is out of bounds for array of dimension 1
+DEBUG;2021-03-26 20:29:05;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;567;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-26 20:29:05;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;578;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:29:05;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;591;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+INFO;2021-03-26 20:29:05;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;602;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:29:05;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;578;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-26 20:29:06;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;591;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+INFO;2021-03-26 20:29:06;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;602;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+DEBUG;2021-03-26 20:29:06;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;578;Extraindo importância das features para o modelo LGBMClassifier
+DEBUG;2021-03-26 20:29:06;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;591;Plotando gráfico de importância das features para o modelo LGBMClassifier
+INFO;2021-03-26 20:29:06;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;602;Gráfico de importância das features plotado com sucesso para o modelo LGBMClassifier
+DEBUG;2021-03-26 20:31:52;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;704;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 20:32:14;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;704;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 20:33:16;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;704;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 20:45:05;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;704;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 20:45:35;<ipython-input-224-0b4dab54dba9>;<ipython-input-224-0b4dab54dba9>;704;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 20:47:49;<ipython-input-251-76d2ab1d1d06>;<ipython-input-251-76d2ab1d1d06>;69;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:47:49;<ipython-input-251-76d2ab1d1d06>;<ipython-input-251-76d2ab1d1d06>;69;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 20:47:49;<ipython-input-251-76d2ab1d1d06>;<ipython-input-251-76d2ab1d1d06>;69;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 20:48:05;<ipython-input-251-76d2ab1d1d06>;<ipython-input-251-76d2ab1d1d06>;69;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:48:05;<ipython-input-251-76d2ab1d1d06>;<ipython-input-251-76d2ab1d1d06>;69;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 20:48:05;<ipython-input-251-76d2ab1d1d06>;<ipython-input-251-76d2ab1d1d06>;69;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 20:48:28;<ipython-input-251-76d2ab1d1d06>;<ipython-input-251-76d2ab1d1d06>;69;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:48:28;<ipython-input-251-76d2ab1d1d06>;<ipython-input-251-76d2ab1d1d06>;69;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 20:48:29;<ipython-input-251-76d2ab1d1d06>;<ipython-input-251-76d2ab1d1d06>;69;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 20:48:50;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;69;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:48:50;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;69;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 20:48:50;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;69;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 20:48:52;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 20:48:52;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;175;Métricas computadas com sucesso nos dados de treino em 0.214 segundos
+DEBUG;2021-03-26 20:48:52;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;209;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 20:48:52;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;242;Métricas computadas com sucesso nos dados de validação em 0.018 segundos
+DEBUG;2021-03-26 20:48:52;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;142;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 20:48:53;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;175;Métricas computadas com sucesso nos dados de treino em 1.427 segundos
+DEBUG;2021-03-26 20:48:53;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;209;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 20:48:53;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;242;Métricas computadas com sucesso nos dados de validação em 0.032 segundos
+DEBUG;2021-03-26 20:48:53;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;142;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 20:48:59;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;175;Métricas computadas com sucesso nos dados de treino em 5.532 segundos
+DEBUG;2021-03-26 20:48:59;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;209;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 20:48:59;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;242;Métricas computadas com sucesso nos dados de validação em 0.013 segundos
+DEBUG;2021-03-26 20:50:15;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;483;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-26 20:50:15;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;491;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:50:15;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;508;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-26 20:50:15;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;516;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+ERROR;2021-03-26 20:50:15;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;531;Erro ao gerar a matriz para o modelo DecisionTreeClassifier. Exception lançada: module 'pandas' has no attribute 'g'
+DEBUG;2021-03-26 20:50:15;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;491;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-26 20:50:15;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;508;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-26 20:50:16;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;516;Gerando matriz de confusão para o modelo RandomForestClassifier
+ERROR;2021-03-26 20:50:16;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;531;Erro ao gerar a matriz para o modelo RandomForestClassifier. Exception lançada: module 'pandas' has no attribute 'g'
+DEBUG;2021-03-26 20:50:16;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;491;Retornando dados de treino e validação para o modelo LGBMClassifier
+DEBUG;2021-03-26 20:50:16;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;508;Realizando predições para os dados de treino e validação (LGBMClassifier)
+DEBUG;2021-03-26 20:50:23;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;516;Gerando matriz de confusão para o modelo LGBMClassifier
+ERROR;2021-03-26 20:50:23;<ipython-input-259-17048df8730b>;<ipython-input-259-17048df8730b>;531;Erro ao gerar a matriz para o modelo LGBMClassifier. Exception lançada: module 'pandas' has no attribute 'g'
+DEBUG;2021-03-26 20:53:13;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;69;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:53:13;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;69;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 20:53:13;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;69;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 20:53:17;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 20:53:17;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;175;Métricas computadas com sucesso nos dados de treino em 0.179 segundos
+DEBUG;2021-03-26 20:53:17;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;209;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 20:53:17;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;242;Métricas computadas com sucesso nos dados de validação em 0.015 segundos
+DEBUG;2021-03-26 20:53:17;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;142;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 20:53:18;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;175;Métricas computadas com sucesso nos dados de treino em 1.317 segundos
+DEBUG;2021-03-26 20:53:18;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;209;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 20:53:18;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;242;Métricas computadas com sucesso nos dados de validação em 0.022 segundos
+DEBUG;2021-03-26 20:53:18;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;142;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 20:53:24;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;175;Métricas computadas com sucesso nos dados de treino em 5.708 segundos
+DEBUG;2021-03-26 20:53:24;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;209;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 20:53:24;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;242;Métricas computadas com sucesso nos dados de validação em 0.014 segundos
+DEBUG;2021-03-26 20:53:25;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;484;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-26 20:53:25;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;492;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:53:25;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;509;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-26 20:53:26;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;517;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-26 20:53:26;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;530;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 20:53:26;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;492;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-26 20:53:26;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;509;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-26 20:53:27;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;517;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-26 20:53:27;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;530;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-26 20:53:27;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;492;Retornando dados de treino e validação para o modelo LGBMClassifier
+DEBUG;2021-03-26 20:53:27;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;509;Realizando predições para os dados de treino e validação (LGBMClassifier)
+DEBUG;2021-03-26 20:53:33;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;517;Gerando matriz de confusão para o modelo LGBMClassifier
+INFO;2021-03-26 20:53:33;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;530;Matriz de confusão gerada para o modelo LGBMClassifier
+DEBUG;2021-03-26 20:54:31;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;701;Retornando estimator do modelo LightGBMClassifier já treinado
+ERROR;2021-03-26 20:54:31;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;706;Classificador LightGBMClassifier não existente ou não treinado. Opções possíveis: ['DecisionTreeClassifier', 'RandomForestClassifier', 'LGBMClassifier']
+DEBUG;2021-03-26 20:54:42;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;701;Retornando estimator do modelo LightGBM já treinado
+ERROR;2021-03-26 20:54:42;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;706;Classificador LightGBM não existente ou não treinado. Opções possíveis: ['DecisionTreeClassifier', 'RandomForestClassifier', 'LGBMClassifier']
+DEBUG;2021-03-26 20:54:49;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;701;Retornando estimator do modelo LightGBMClassifier já treinado
+ERROR;2021-03-26 20:54:49;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;706;Classificador LightGBMClassifier não existente ou não treinado. Opções possíveis: ['DecisionTreeClassifier', 'RandomForestClassifier', 'LGBMClassifier']
+DEBUG;2021-03-26 20:55:11;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;701;Retornando estimator do modelo LGBMClassifier já treinado
+DEBUG;2021-03-26 20:57:35;<ipython-input-264-1c83b070219f>;<ipython-input-264-1c83b070219f>;701;Retornando estimator do modelo RandomForestClassifier já treinado
+DEBUG;2021-03-26 21:19:02;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;69;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 21:19:02;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;69;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 21:19:02;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;69;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 21:19:08;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 21:19:08;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;175;Métricas computadas com sucesso nos dados de treino em 0.18 segundos
+DEBUG;2021-03-26 21:19:08;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;209;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 21:19:08;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;242;Métricas computadas com sucesso nos dados de validação em 0.009 segundos
+DEBUG;2021-03-26 21:19:08;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;142;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 21:19:09;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;175;Métricas computadas com sucesso nos dados de treino em 1.319 segundos
+DEBUG;2021-03-26 21:19:09;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;209;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 21:19:10;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;242;Métricas computadas com sucesso nos dados de validação em 0.028 segundos
+DEBUG;2021-03-26 21:19:10;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;142;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 21:19:16;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;175;Métricas computadas com sucesso nos dados de treino em 6.21 segundos
+DEBUG;2021-03-26 21:19:16;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;209;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 21:19:16;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;242;Métricas computadas com sucesso nos dados de validação em 0.035 segundos
+DEBUG;2021-03-26 21:19:27;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;484;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-26 21:19:27;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;492;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 21:19:27;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;509;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-26 21:19:27;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;517;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-26 21:19:27;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;530;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 21:19:27;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;492;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:19:27;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;509;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-26 21:19:28;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;517;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-26 21:19:29;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;530;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:19:29;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;492;Retornando dados de treino e validação para o modelo LGBMClassifier
+DEBUG;2021-03-26 21:19:29;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;509;Realizando predições para os dados de treino e validação (LGBMClassifier)
+DEBUG;2021-03-26 21:19:35;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;517;Gerando matriz de confusão para o modelo LGBMClassifier
+INFO;2021-03-26 21:19:36;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;530;Matriz de confusão gerada para o modelo LGBMClassifier
+DEBUG;2021-03-26 21:19:38;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;564;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-26 21:19:38;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;575;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 21:19:38;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;588;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+INFO;2021-03-26 21:19:38;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;599;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 21:19:38;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;575;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:19:38;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;588;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+INFO;2021-03-26 21:19:38;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;599;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:19:38;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;575;Extraindo importância das features para o modelo LGBMClassifier
+DEBUG;2021-03-26 21:19:38;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;588;Plotando gráfico de importância das features para o modelo LGBMClassifier
+INFO;2021-03-26 21:19:38;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;599;Gráfico de importância das features plotado com sucesso para o modelo LGBMClassifier
+DEBUG;2021-03-26 21:20:47;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;644;Explicando o modelo RandomForestClassifier através da análise shap
+DEBUG;2021-03-26 21:20:47;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;652;Retornando parâmetros da classe para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:20:47;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;662;Criando explainer e gerando valores shap para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:20:48;<ipython-input-310-1ee3b9640c95>;<ipython-input-310-1ee3b9640c95>;682;Plotando análise shap para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:21:53;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;69;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 21:21:54;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;69;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 21:21:54;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;69;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 21:21:56;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;142;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 21:21:57;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;175;Métricas computadas com sucesso nos dados de treino em 0.188 segundos
+DEBUG;2021-03-26 21:21:57;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;209;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 21:21:57;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;242;Métricas computadas com sucesso nos dados de validação em 0.01 segundos
+DEBUG;2021-03-26 21:21:57;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;142;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 21:21:58;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;175;Métricas computadas com sucesso nos dados de treino em 1.326 segundos
+DEBUG;2021-03-26 21:21:58;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;209;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 21:21:58;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;242;Métricas computadas com sucesso nos dados de validação em 0.024 segundos
+DEBUG;2021-03-26 21:21:58;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;142;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 21:22:04;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;175;Métricas computadas com sucesso nos dados de treino em 5.978 segundos
+DEBUG;2021-03-26 21:22:04;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;209;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 21:22:04;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;242;Métricas computadas com sucesso nos dados de validação em 0.015 segundos
+DEBUG;2021-03-26 21:22:06;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;484;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-26 21:22:06;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;492;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 21:22:06;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;509;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-26 21:22:06;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;517;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-26 21:22:06;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;530;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 21:22:06;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;492;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:22:06;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;509;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-26 21:22:08;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;517;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-26 21:22:08;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;530;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:22:08;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;492;Retornando dados de treino e validação para o modelo LGBMClassifier
+DEBUG;2021-03-26 21:22:08;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;509;Realizando predições para os dados de treino e validação (LGBMClassifier)
+DEBUG;2021-03-26 21:22:15;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;517;Gerando matriz de confusão para o modelo LGBMClassifier
+INFO;2021-03-26 21:22:15;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;530;Matriz de confusão gerada para o modelo LGBMClassifier
+DEBUG;2021-03-26 21:22:16;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;564;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-26 21:22:16;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;575;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 21:22:16;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;588;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+INFO;2021-03-26 21:22:16;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;599;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 21:22:16;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;575;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:22:16;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;588;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+INFO;2021-03-26 21:22:17;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;599;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:22:17;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;575;Extraindo importância das features para o modelo LGBMClassifier
+DEBUG;2021-03-26 21:22:17;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;588;Plotando gráfico de importância das features para o modelo LGBMClassifier
+INFO;2021-03-26 21:22:17;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;599;Gráfico de importância das features plotado com sucesso para o modelo LGBMClassifier
+DEBUG;2021-03-26 21:22:18;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;644;Explicando o modelo RandomForestClassifier através da análise shap
+DEBUG;2021-03-26 21:22:18;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;652;Retornando parâmetros da classe para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:22:18;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;662;Criando explainer e gerando valores shap para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:22:19;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;682;Plotando análise shap para o modelo RandomForestClassifier
+DEBUG;2021-03-26 21:22:34;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;713;Retornando estimator do modelo DecisionTreeClassifier já treinado
+DEBUG;2021-03-26 21:22:41;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;713;Retornando estimator do modelo LGBMClassifier já treinado
