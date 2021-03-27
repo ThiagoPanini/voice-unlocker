@@ -975,3 +975,201 @@ DEBUG;2021-03-26 21:22:18;<ipython-input-319-18a54328f031>;<ipython-input-319-18
 DEBUG;2021-03-26 21:22:19;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;682;Plotando análise shap para o modelo RandomForestClassifier
 DEBUG;2021-03-26 21:22:34;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;713;Retornando estimator do modelo DecisionTreeClassifier já treinado
 DEBUG;2021-03-26 21:22:41;<ipython-input-319-18a54328f031>;<ipython-input-319-18a54328f031>;713;Retornando estimator do modelo LGBMClassifier já treinado
+DEBUG;2021-03-26 21:43:05;trainer.py;trainer;1604;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 21:43:05;trainer.py;trainer;1604;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 21:43:05;trainer.py;trainer;1604;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 21:43:07;trainer.py;trainer;1677;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 21:43:07;trainer.py;trainer;1715;Erro ao computar as métricas. Exception lançada: name 'classification_report' is not defined
+DEBUG;2021-03-26 21:43:07;trainer.py;trainer;1744;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 21:43:07;trainer.py;trainer;1782;Erro ao computar as métricas. Exception lançada: name 'classification_report' is not defined
+DEBUG;2021-03-26 21:47:26;trainer.py;trainer;1604;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 21:47:26;trainer.py;trainer;1604;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 21:47:26;trainer.py;trainer;1604;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 21:47:29;trainer.py;trainer;1677;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 21:47:29;trainer.py;trainer;1715;Erro ao computar as métricas. Exception lançada: name 'classification_report' is not defined
+DEBUG;2021-03-26 21:47:29;trainer.py;trainer;1744;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 21:47:29;trainer.py;trainer;1782;Erro ao computar as métricas. Exception lançada: name 'classification_report' is not defined
+DEBUG;2021-03-26 21:47:41;trainer.py;trainer;1677;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 21:47:42;trainer.py;trainer;1715;Erro ao computar as métricas. Exception lançada: name 'classification_report' is not defined
+DEBUG;2021-03-26 21:47:42;trainer.py;trainer;1744;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+ERROR;2021-03-26 21:47:42;trainer.py;trainer;1782;Erro ao computar as métricas. Exception lançada: name 'classification_report' is not defined
+DEBUG;2021-03-26 22:26:55;trainer.py;trainer;1604;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 22:26:55;trainer.py;trainer;1604;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 22:26:55;trainer.py;trainer;1604;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 22:26:58;trainer.py;trainer;1677;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 22:26:58;trainer.py;trainer;1715;Erro ao computar as métricas. Exception lançada: name 'classification_report' is not defined
+DEBUG;2021-03-26 22:26:58;trainer.py;trainer;1744;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 22:26:58;trainer.py;trainer;1782;Erro ao computar as métricas. Exception lançada: name 'classification_report' is not defined
+DEBUG;2021-03-26 22:31:06;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;61;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 22:31:06;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;61;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 22:31:06;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;61;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 22:31:09;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;134;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 22:31:09;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;172;Erro ao computar as métricas. Exception lançada: name 'cross_val_predict' is not defined
+DEBUG;2021-03-26 22:31:09;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;201;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 22:31:09;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;234;Métricas computadas com sucesso nos dados de validação em 0.029 segundos
+DEBUG;2021-03-26 22:31:36;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;134;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 22:31:37;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;167;Métricas computadas com sucesso nos dados de treino em 1.385 segundos
+DEBUG;2021-03-26 22:31:37;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;201;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 22:31:37;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;234;Métricas computadas com sucesso nos dados de validação em 0.024 segundos
+DEBUG;2021-03-26 22:31:37;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;134;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 22:31:46;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;167;Métricas computadas com sucesso nos dados de treino em 9.238 segundos
+DEBUG;2021-03-26 22:31:46;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;201;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 22:31:46;<ipython-input-28-78aee997f011>;<ipython-input-28-78aee997f011>;234;Métricas computadas com sucesso nos dados de validação em 0.017 segundos
+DEBUG;2021-03-26 22:32:27;trainer.py;trainer;1604;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 22:32:27;trainer.py;trainer;1604;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 22:32:27;trainer.py;trainer;1604;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 22:32:32;trainer.py;trainer;1677;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 22:32:32;trainer.py;trainer;1715;Erro ao computar as métricas. Exception lançada: name 'classification_report' is not defined
+DEBUG;2021-03-26 22:32:32;trainer.py;trainer;1744;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 22:32:32;trainer.py;trainer;1782;Erro ao computar as métricas. Exception lançada: name 'classification_report' is not defined
+DEBUG;2021-03-26 22:37:54;trainer.py;trainer;1604;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 22:37:54;trainer.py;trainer;1604;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 22:37:54;trainer.py;trainer;1604;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 22:37:57;trainer.py;trainer;1677;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+ERROR;2021-03-26 22:37:57;trainer.py;trainer;1715;Erro ao computar as métricas. Exception lançada: name 'classification_report' is not defined
+DEBUG;2021-03-26 22:37:57;trainer.py;trainer;1744;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+ERROR;2021-03-26 22:37:57;trainer.py;trainer;1782;Erro ao computar as métricas. Exception lançada: name 'classification_report' is not defined
+DEBUG;2021-03-26 22:38:17;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;61;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 22:38:17;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;61;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 22:38:17;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;61;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 22:38:20;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;134;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 22:38:21;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;167;Métricas computadas com sucesso nos dados de treino em 0.257 segundos
+DEBUG;2021-03-26 22:38:21;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;201;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 22:38:21;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;234;Métricas computadas com sucesso nos dados de validação em 0.028 segundos
+DEBUG;2021-03-26 22:38:21;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;134;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 22:38:22;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;167;Métricas computadas com sucesso nos dados de treino em 1.451 segundos
+DEBUG;2021-03-26 22:38:22;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;201;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 22:38:22;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;234;Métricas computadas com sucesso nos dados de validação em 0.024 segundos
+DEBUG;2021-03-26 22:38:22;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;134;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 22:38:27;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;167;Métricas computadas com sucesso nos dados de treino em 4.971 segundos
+DEBUG;2021-03-26 22:38:27;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;201;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 22:38:27;<ipython-input-41-78aee997f011>;<ipython-input-41-78aee997f011>;234;Métricas computadas com sucesso nos dados de validação em 0.013 segundos
+DEBUG;2021-03-26 22:55:02;trainer.py;trainer;1604;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 22:55:03;trainer.py;trainer;1604;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 22:55:03;trainer.py;trainer;1604;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 22:55:07;trainer.py;trainer;1677;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 22:55:08;trainer.py;trainer;1710;Métricas computadas com sucesso nos dados de treino em 0.428 segundos
+DEBUG;2021-03-26 22:55:08;trainer.py;trainer;1744;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 22:55:08;trainer.py;trainer;1777;Métricas computadas com sucesso nos dados de validação em 0.039 segundos
+DEBUG;2021-03-26 22:55:08;trainer.py;trainer;1677;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 22:55:10;trainer.py;trainer;1710;Métricas computadas com sucesso nos dados de treino em 2.201 segundos
+DEBUG;2021-03-26 22:55:10;trainer.py;trainer;1744;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 22:55:10;trainer.py;trainer;1777;Métricas computadas com sucesso nos dados de validação em 0.066 segundos
+DEBUG;2021-03-26 22:55:10;trainer.py;trainer;1677;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 22:55:23;trainer.py;trainer;1710;Métricas computadas com sucesso nos dados de treino em 13.018 segundos
+DEBUG;2021-03-26 22:55:23;trainer.py;trainer;1744;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 22:55:23;trainer.py;trainer;1777;Métricas computadas com sucesso nos dados de validação em 0.018 segundos
+DEBUG;2021-03-26 22:55:40;trainer.py;trainer;2019;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-26 22:55:40;trainer.py;trainer;2027;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 22:55:40;trainer.py;trainer;2044;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-26 22:55:40;trainer.py;trainer;2052;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-26 22:55:40;trainer.py;trainer;2065;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 22:55:40;trainer.py;trainer;2027;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-26 22:55:40;trainer.py;trainer;2044;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-26 22:55:42;trainer.py;trainer;2052;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-26 22:55:42;trainer.py;trainer;2065;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-26 22:55:42;trainer.py;trainer;2027;Retornando dados de treino e validação para o modelo LGBMClassifier
+DEBUG;2021-03-26 22:55:42;trainer.py;trainer;2044;Realizando predições para os dados de treino e validação (LGBMClassifier)
+DEBUG;2021-03-26 22:55:51;trainer.py;trainer;2052;Gerando matriz de confusão para o modelo LGBMClassifier
+INFO;2021-03-26 22:55:51;trainer.py;trainer;2065;Matriz de confusão gerada para o modelo LGBMClassifier
+DEBUG;2021-03-26 22:56:53;trainer.py;trainer;2099;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-26 22:56:53;trainer.py;trainer;2110;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 22:56:53;trainer.py;trainer;2123;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+INFO;2021-03-26 22:56:53;trainer.py;trainer;2134;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 22:56:53;trainer.py;trainer;2110;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-26 22:56:53;trainer.py;trainer;2123;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+INFO;2021-03-26 22:56:53;trainer.py;trainer;2134;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+DEBUG;2021-03-26 22:56:53;trainer.py;trainer;2110;Extraindo importância das features para o modelo LGBMClassifier
+DEBUG;2021-03-26 22:56:53;trainer.py;trainer;2123;Plotando gráfico de importância das features para o modelo LGBMClassifier
+INFO;2021-03-26 22:56:53;trainer.py;trainer;2134;Gráfico de importância das features plotado com sucesso para o modelo LGBMClassifier
+DEBUG;2021-03-26 22:57:06;trainer.py;trainer;2179;Explicando o modelo RandomForestClassifier através da análise shap
+DEBUG;2021-03-26 22:57:06;trainer.py;trainer;2187;Retornando parâmetros da classe para o modelo RandomForestClassifier
+DEBUG;2021-03-26 22:57:06;trainer.py;trainer;2197;Criando explainer e gerando valores shap para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:24:02;trainer.py;trainer;1604;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 23:24:02;trainer.py;trainer;1604;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 23:24:02;trainer.py;trainer;1604;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 23:24:04;trainer.py;trainer;1677;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 23:24:05;trainer.py;trainer;1710;Métricas computadas com sucesso nos dados de treino em 0.252 segundos
+DEBUG;2021-03-26 23:24:05;trainer.py;trainer;1744;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 23:24:05;trainer.py;trainer;1777;Métricas computadas com sucesso nos dados de validação em 0.01 segundos
+DEBUG;2021-03-26 23:24:05;trainer.py;trainer;1677;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 23:24:06;trainer.py;trainer;1710;Métricas computadas com sucesso nos dados de treino em 1.202 segundos
+DEBUG;2021-03-26 23:24:06;trainer.py;trainer;1744;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 23:24:06;trainer.py;trainer;1777;Métricas computadas com sucesso nos dados de validação em 0.037 segundos
+DEBUG;2021-03-26 23:24:06;trainer.py;trainer;1677;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 23:24:12;trainer.py;trainer;1710;Métricas computadas com sucesso nos dados de treino em 5.911 segundos
+DEBUG;2021-03-26 23:24:12;trainer.py;trainer;1744;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 23:24:12;trainer.py;trainer;1777;Métricas computadas com sucesso nos dados de validação em 0.022 segundos
+DEBUG;2021-03-26 23:24:20;trainer.py;trainer;2019;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-26 23:24:20;trainer.py;trainer;2027;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 23:24:20;trainer.py;trainer;2044;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-26 23:24:20;trainer.py;trainer;2052;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-26 23:24:20;trainer.py;trainer;2065;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 23:24:20;trainer.py;trainer;2027;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:24:20;trainer.py;trainer;2044;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-26 23:24:22;trainer.py;trainer;2052;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-26 23:24:22;trainer.py;trainer;2065;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:24:22;trainer.py;trainer;2027;Retornando dados de treino e validação para o modelo LGBMClassifier
+DEBUG;2021-03-26 23:24:22;trainer.py;trainer;2044;Realizando predições para os dados de treino e validação (LGBMClassifier)
+DEBUG;2021-03-26 23:24:29;trainer.py;trainer;2052;Gerando matriz de confusão para o modelo LGBMClassifier
+INFO;2021-03-26 23:24:30;trainer.py;trainer;2065;Matriz de confusão gerada para o modelo LGBMClassifier
+DEBUG;2021-03-26 23:24:31;trainer.py;trainer;2099;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-26 23:24:31;trainer.py;trainer;2110;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 23:24:31;trainer.py;trainer;2123;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+INFO;2021-03-26 23:24:31;trainer.py;trainer;2134;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 23:24:31;trainer.py;trainer;2110;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:24:31;trainer.py;trainer;2123;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+INFO;2021-03-26 23:24:31;trainer.py;trainer;2134;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:24:31;trainer.py;trainer;2110;Extraindo importância das features para o modelo LGBMClassifier
+DEBUG;2021-03-26 23:24:31;trainer.py;trainer;2123;Plotando gráfico de importância das features para o modelo LGBMClassifier
+INFO;2021-03-26 23:24:31;trainer.py;trainer;2134;Gráfico de importância das features plotado com sucesso para o modelo LGBMClassifier
+DEBUG;2021-03-26 23:24:32;trainer.py;trainer;2179;Explicando o modelo RandomForestClassifier através da análise shap
+DEBUG;2021-03-26 23:24:32;trainer.py;trainer;2187;Retornando parâmetros da classe para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:24:32;trainer.py;trainer;2197;Criando explainer e gerando valores shap para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:29:03;trainer.py;trainer;1606;Treinando modelo DecisionTreeClassifier
+DEBUG;2021-03-26 23:29:03;trainer.py;trainer;1606;Treinando modelo RandomForestClassifier
+DEBUG;2021-03-26 23:29:04;trainer.py;trainer;1606;Treinando modelo LGBMClassifier
+DEBUG;2021-03-26 23:29:05;trainer.py;trainer;1679;Computando métricas do modelo DecisionTreeClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 23:29:05;trainer.py;trainer;1712;Métricas computadas com sucesso nos dados de treino em 0.177 segundos
+DEBUG;2021-03-26 23:29:05;trainer.py;trainer;1746;Computando métricas do modelo DecisionTreeClassifier utilizando dados de teste
+INFO;2021-03-26 23:29:05;trainer.py;trainer;1779;Métricas computadas com sucesso nos dados de validação em 0.012 segundos
+DEBUG;2021-03-26 23:29:05;trainer.py;trainer;1679;Computando métricas do modelo RandomForestClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 23:29:07;trainer.py;trainer;1712;Métricas computadas com sucesso nos dados de treino em 1.139 segundos
+DEBUG;2021-03-26 23:29:07;trainer.py;trainer;1746;Computando métricas do modelo RandomForestClassifier utilizando dados de teste
+INFO;2021-03-26 23:29:07;trainer.py;trainer;1779;Métricas computadas com sucesso nos dados de validação em 0.017 segundos
+DEBUG;2021-03-26 23:29:07;trainer.py;trainer;1679;Computando métricas do modelo LGBMClassifier utilizando validação cruzada com 5 K-folds
+INFO;2021-03-26 23:29:13;trainer.py;trainer;1712;Métricas computadas com sucesso nos dados de treino em 5.994 segundos
+DEBUG;2021-03-26 23:29:13;trainer.py;trainer;1746;Computando métricas do modelo LGBMClassifier utilizando dados de teste
+INFO;2021-03-26 23:29:13;trainer.py;trainer;1779;Métricas computadas com sucesso nos dados de validação em 0.037 segundos
+DEBUG;2021-03-26 23:29:14;trainer.py;trainer;2021;Inicializando plotagem da matriz de confusão para os modelos
+DEBUG;2021-03-26 23:29:14;trainer.py;trainer;2029;Retornando dados de treino e validação para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 23:29:14;trainer.py;trainer;2046;Realizando predições para os dados de treino e validação (DecisionTreeClassifier)
+DEBUG;2021-03-26 23:29:14;trainer.py;trainer;2054;Gerando matriz de confusão para o modelo DecisionTreeClassifier
+INFO;2021-03-26 23:29:15;trainer.py;trainer;2067;Matriz de confusão gerada para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 23:29:15;trainer.py;trainer;2029;Retornando dados de treino e validação para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:29:15;trainer.py;trainer;2046;Realizando predições para os dados de treino e validação (RandomForestClassifier)
+DEBUG;2021-03-26 23:29:16;trainer.py;trainer;2054;Gerando matriz de confusão para o modelo RandomForestClassifier
+INFO;2021-03-26 23:29:16;trainer.py;trainer;2067;Matriz de confusão gerada para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:29:16;trainer.py;trainer;2029;Retornando dados de treino e validação para o modelo LGBMClassifier
+DEBUG;2021-03-26 23:29:16;trainer.py;trainer;2046;Realizando predições para os dados de treino e validação (LGBMClassifier)
+DEBUG;2021-03-26 23:29:21;trainer.py;trainer;2054;Gerando matriz de confusão para o modelo LGBMClassifier
+INFO;2021-03-26 23:29:21;trainer.py;trainer;2067;Matriz de confusão gerada para o modelo LGBMClassifier
+DEBUG;2021-03-26 23:29:22;trainer.py;trainer;2101;Inicializando plotagem das features mais importantes para os modelos
+DEBUG;2021-03-26 23:29:22;trainer.py;trainer;2112;Extraindo importância das features para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 23:29:22;trainer.py;trainer;2125;Plotando gráfico de importância das features para o modelo DecisionTreeClassifier
+INFO;2021-03-26 23:29:22;trainer.py;trainer;2136;Gráfico de importância das features plotado com sucesso para o modelo DecisionTreeClassifier
+DEBUG;2021-03-26 23:29:22;trainer.py;trainer;2112;Extraindo importância das features para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:29:22;trainer.py;trainer;2125;Plotando gráfico de importância das features para o modelo RandomForestClassifier
+INFO;2021-03-26 23:29:22;trainer.py;trainer;2136;Gráfico de importância das features plotado com sucesso para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:29:22;trainer.py;trainer;2112;Extraindo importância das features para o modelo LGBMClassifier
+DEBUG;2021-03-26 23:29:22;trainer.py;trainer;2125;Plotando gráfico de importância das features para o modelo LGBMClassifier
+INFO;2021-03-26 23:29:22;trainer.py;trainer;2136;Gráfico de importância das features plotado com sucesso para o modelo LGBMClassifier
+DEBUG;2021-03-26 23:29:24;trainer.py;trainer;2181;Explicando o modelo RandomForestClassifier através da análise shap
+DEBUG;2021-03-26 23:29:24;trainer.py;trainer;2189;Retornando parâmetros da classe para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:29:24;trainer.py;trainer;2199;Criando explainer e gerando valores shap para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:29:25;trainer.py;trainer;2219;Plotando análise shap para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:29:40;trainer.py;trainer;2250;Retornando estimator do modelo LGBMClassifier já treinado
+DEBUG;2021-03-26 23:30:16;trainer.py;trainer;2181;Explicando o modelo RandomForestClassifier através da análise shap
+DEBUG;2021-03-26 23:30:16;trainer.py;trainer;2189;Retornando parâmetros da classe para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:30:16;trainer.py;trainer;2199;Criando explainer e gerando valores shap para o modelo RandomForestClassifier
+DEBUG;2021-03-26 23:30:17;trainer.py;trainer;2219;Plotando análise shap para o modelo RandomForestClassifier
