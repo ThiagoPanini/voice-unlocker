@@ -33,6 +33,8 @@ import librosa
 from warnings import filterwarnings
 filterwarnings('ignore')
 
+from sklearn.base import BaseEstimator, TransformerMixin
+
 
 """
 ------------------------------------------------------
