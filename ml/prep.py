@@ -149,7 +149,7 @@ def read_data(data_path, sr, signal_col='signal', target_col='y_class'):
 """
 
 # Definindo função para pré processamento da base
-def data_pre_processing(df, signal_col=SIGNAL_COL, target_col=TARGET_COL, encoded_target=ENCODED_TARGET):
+def data_pre_processing(df, signal_col='signal', target_col='y_class', encoded_target=True):
     """
     Função responsável por filtrar as colunas utilizadas na preparação e aplicar o processo
     de encoding na variável resposta

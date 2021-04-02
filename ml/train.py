@@ -39,7 +39,7 @@ import logging
 from warnings import filterwarnings
 filterwarnings('ignore')
 
-from prep import read_data, copy_common_voice
+from prep import *
 
 from pycomp.log.log_config import log_config
 
@@ -57,7 +57,7 @@ logger = log_config(logger)
 
 """
 ------------------------------------------------------
-         2. DEFINIÇÃO DE VARIÁVEIS DO PROJETO
+-------- 2. DEFINIÇÃO DE VARIÁVEIS DO PROJETO --------
 ------------------------------------------------------ 
 """
 
@@ -98,7 +98,7 @@ DONUT_COLORS = ['cadetblue', 'salmon', 'seagreen', 'navy']
 
 """
 ------------------------------------------------------
-              3. LEITURA DA BASE DE DADOS
+------------ 3. LEITURA DA BASE DE DADOS -------------
 ------------------------------------------------------ 
 """
 
@@ -119,6 +119,7 @@ try:
     logger.info(f'Base de dados lida com sucesso. Dimensões: {df.shape}')
 except Exception as e:
     logger.error(f'Erro ao ler base de dados. Exception: {e}')
+    exit()
 
 
 """
@@ -129,4 +130,11 @@ except Exception as e:
 """
 
 # Separando apenas colunas do sinal e do target
-logger.
+logger.debug('Aplicando pré-processamento na base.')
+try:
+    X, y = data_pre_processing(df=df, signal_col=SIGNAL_COL, target_col=TARGET_COL, 
+                               encoded_target=ENCODED_TARGET)
+    logger.info('Base X (sinal) e y (target) gerada com sucesso.')
+except Exception as e:
+    logger.error(f'Erro ao aplicar pré-processamento. Exception: {e}')
+    exit()
