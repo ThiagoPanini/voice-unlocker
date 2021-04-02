@@ -28,6 +28,7 @@ nas etapas de preparação e construção de pipelines.
 
 import os 
 import pandas as pd
+import numpy as np
 import shutil
 import librosa
 from warnings import filterwarnings
