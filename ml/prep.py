@@ -264,6 +264,28 @@ def calc_ber(spec, split_freq, sr):
 
 # Definindo transformador para envelope de amplitude
 class AmplitudeEnvelop(BaseEstimator, TransformerMixin):
+    """
+    Classe responsável por extrair o envelope de amplitude de sinais de áudio
+    considerando agregados estatísticos pré definidos.
+
+    Parâmetros
+    ----------
+    :param frame_size: quantidade de amostrar por enquadramento do sinal [type: int]
+    :param hop_length: parâmetro de overlapping de quadros do sinal [type: int]
+    :param signal_col: referência da coluna de armazenamento do sinal na base [type: string, default='signal']
+    :param feature_aggreg: lista de agregadores estatísticos aplicados após a extração da features
+        *default=['mean', 'median', 'std', 'var', 'max', 'min']
+
+    Retorno
+    -------
+    :return X: base de dados contendo os agregados estatísticos para o envelope de amplitude [type: pd.DataFrame]
+
+    Aplicação
+    ---------
+    ae_extractor = AmplitudeEnvelop(frame_size=FRAME_SIZE, hop_length=HOP_LENGTH, 
+                                signal_col='signal', feature_aggreg=FEATURE_AGGREG)
+    X_ae = ae_extractor.fit_transform(X)                          
+    """
     
     def __init__(self, frame_size, hop_length, signal_col='signal',
                  feature_aggreg=['mean', 'median', 'std', 'var', 'max', 'min']):
@@ -294,6 +316,28 @@ class AmplitudeEnvelop(BaseEstimator, TransformerMixin):
     
 # Definindo transformador para RMS Energy
 class RMSEnergy(BaseEstimator, TransformerMixin):
+    """
+    Classe responsável por extrair a raíz da energia média quadrática de sinais de áudio
+    considerando agregados estatísticos pré definidos.
+
+    Parâmetros
+    ----------
+    :param frame_size: quantidade de amostrar por enquadramento do sinal [type: int]
+    :param hop_length: parâmetro de overlapping de quadros do sinal [type: int]
+    :param signal_col: referência da coluna de armazenamento do sinal na base [type: string, default='signal']
+    :param feature_aggreg: lista de agregadores estatísticos aplicados após a extração da features
+        *default=['mean', 'median', 'std', 'var', 'max', 'min']
+
+    Retorno
+    -------
+    :return X: base de dados contendo os agregados estatísticos para a raíz da energia média quadrática [type: pd.DataFrame]
+
+    Aplicação
+    ---------
+    rms_extractor = RMSEnergy(frame_size=FRAME_SIZE, hop_length=HOP_LENGTH, 
+                              signal_col='signal', feature_aggreg=FEATURE_AGGREG)
+    X_rms = rms_extractor.fit_transform(X)
+    """
     
     def __init__(self, frame_size, hop_length, signal_col='signal',
                  feature_aggreg=['mean', 'median', 'std', 'var', 'max', 'min']):
@@ -325,6 +369,28 @@ class RMSEnergy(BaseEstimator, TransformerMixin):
     
 # Definindo transformador para Zero Crossing Rate
 class ZeroCrossingRate(BaseEstimator, TransformerMixin):
+    """
+    Classe responsável por extrair a taxa de cruzamento de zero de sinais de áudio
+    considerando agregados estatísticos pré definidos.
+
+    Parâmetros
+    ----------
+    :param frame_size: quantidade de amostrar por enquadramento do sinal [type: int]
+    :param hop_length: parâmetro de overlapping de quadros do sinal [type: int]
+    :param signal_col: referência da coluna de armazenamento do sinal na base [type: string, default='signal']
+    :param feature_aggreg: lista de agregadores estatísticos aplicados após a extração da features
+        *default=['mean', 'median', 'std', 'var', 'max', 'min']
+
+    Retorno
+    -------
+    :return X: base de dados contendo os agregados estatísticos para a taxa de cruzamento de zero [type: pd.DataFrame]
+
+    Aplicação
+    ---------
+    zcr_extractor = ZeroCrossingRate(frame_size=FRAME_SIZE, hop_length=HOP_LENGTH, 
+                                     signal_col='signal', feature_aggreg=FEATURE_AGGREG)
+    X_zcr = zcr_extractor.fit_transform(X)
+    """
     
     def __init__(self, frame_size, hop_length, signal_col='signal',
                  feature_aggreg=['mean', 'median', 'std', 'var', 'max', 'min']):
@@ -356,6 +422,30 @@ class ZeroCrossingRate(BaseEstimator, TransformerMixin):
 
 # Definindo transformador para BER
 class BandEnergyRatio(BaseEstimator, TransformerMixin):
+    """
+    Classe responsável por extrair a taxa de energia de banda de sinais de áudio
+    considerando agregados estatísticos pré definidos.
+
+    Parâmetros
+    ----------
+    :param frame_size: quantidade de amostrar por enquadramento do sinal [type: int]
+    :param hop_length: parâmetro de overlapping de quadros do sinal [type: int]
+    :param split_freq: frequência de separação entre altas e baixas frequências [type: int]
+    :param sr: taxa de amostragem do sinal de áudio [type: int]
+    :param signal_col: referência da coluna de armazenamento do sinal na base [type: string, default='signal']
+    :param feature_aggreg: lista de agregadores estatísticos aplicados após a extração da features
+        *default=['mean', 'median', 'std', 'var', 'max', 'min']
+
+    Retorno
+    -------
+    :return X: base de dados contendo os agregados estatísticos para a taxa de energia de banda [type: pd.DataFrame]
+
+    Aplicação
+    ---------
+    ber_extractor = BandEnergyRatio(frame_size=FRAME_SIZE, hop_length=HOP_LENGTH, 
+                                    signal_col='signal', feature_aggreg=FEATURE_AGGREG)
+    X_ber = ber_extractor.fit_transform(X)
+    """
     
     def __init__(self, frame_size, hop_length, split_freq, sr, signal_col='signal',
                  feature_aggreg=['mean', 'median', 'std', 'var', 'max', 'min']):
@@ -392,6 +482,29 @@ class BandEnergyRatio(BaseEstimator, TransformerMixin):
     
 # Definindo transformador para Spectral Centroid
 class SpectralCentroid(BaseEstimator, TransformerMixin):
+    """
+    Classe responsável por extrair o centroide espectral de sinais de áudio
+    considerando agregados estatísticos pré definidos.
+
+    Parâmetros
+    ----------
+    :param frame_size: quantidade de amostrar por enquadramento do sinal [type: int]
+    :param hop_length: parâmetro de overlapping de quadros do sinal [type: int]
+    :param sr: taxa de amostragem do sinal de áudio [type: int]
+    :param signal_col: referência da coluna de armazenamento do sinal na base [type: string, default='signal']
+    :param feature_aggreg: lista de agregadores estatísticos aplicados após a extração da features
+        *default=['mean', 'median', 'std', 'var', 'max', 'min']
+
+    Retorno
+    -------
+    :return X: base de dados contendo os agregados estatísticos para o centroide espectral [type: pd.DataFrame]
+
+    Aplicação
+    ---------
+    sc_extractor = SpectralCentroid(frame_size=FRAME_SIZE, hop_length=HOP_LENGTH, 
+                                     signal_col='signal', feature_aggreg=FEATURE_AGGREG)
+    X_sc = sc_extractor.fit_transform(X)
+    """
     
     def __init__(self, frame_size, hop_length, sr, signal_col='signal',
                  feature_aggreg=['mean', 'median', 'std', 'var', 'max', 'min']):
@@ -425,6 +538,29 @@ class SpectralCentroid(BaseEstimator, TransformerMixin):
     
 # Definindo transformador para BandWidth
 class BandWidth(BaseEstimator, TransformerMixin):
+    """
+    Classe responsável por extrair a largura de banda de sinais de áudio
+    considerando agregados estatísticos pré definidos.
+
+    Parâmetros
+    ----------
+    :param frame_size: quantidade de amostrar por enquadramento do sinal [type: int]
+    :param hop_length: parâmetro de overlapping de quadros do sinal [type: int]
+    :param sr: taxa de amostragem do sinal de áudio [type: int]
+    :param signal_col: referência da coluna de armazenamento do sinal na base [type: string, default='signal']
+    :param feature_aggreg: lista de agregadores estatísticos aplicados após a extração da features
+        *default=['mean', 'median', 'std', 'var', 'max', 'min']
+
+    Retorno
+    -------
+    :return X: base de dados contendo os agregados estatísticos para a largura de banda [type: pd.DataFrame]
+
+    Aplicação
+    ---------
+    bw_extractor = BandWidth(frame_size=FRAME_SIZE, hop_length=HOP_LENGTH, 
+                             signal_col='signal', feature_aggreg=FEATURE_AGGREG)
+    X_bw = bw_extractor.fit_transform(X)
+    """
     
     def __init__(self, frame_size, hop_length, sr, signal_col='signal',
                  feature_aggreg=['mean', 'median', 'std', 'var', 'max', 'min']):
@@ -458,6 +594,31 @@ class BandWidth(BaseEstimator, TransformerMixin):
     
 # Definindo transformador para agregação de espectrograma em grupos
 class GroupSpecAggreg(BaseEstimator, TransformerMixin):
+    """
+    Classe responsável por extrair a potência espectral de altas e baixas frequências
+    de sinais de áudio considerando agregados estatísticos pré definidos.
+
+    Parâmetros
+    ----------
+    :param frame_size: quantidade de amostrar por enquadramento do sinal [type: int]
+    :param hop_length: parâmetro de overlapping de quadros do sinal [type: int]
+    :param sr: taxa de amostragem do sinal de áudio [type: int]
+    :param split_freq: frequência de separação entre altas e baixas frequências [type: int]
+    :param freq_cat_aggreg: agregador aplicado no agrupamento das potências [type: int, default='sum']
+    :param signal_col: referência da coluna de armazenamento do sinal na base [type: string, default='signal']
+    :param feature_aggreg: lista de agregadores estatísticos aplicados após a extração da features
+        *default=['mean', 'median', 'std', 'var', 'max', 'min']
+
+    Retorno
+    -------
+    :return X: base de dados contendo os agregados estatísticos para a potência espectral agrupada [type: pd.DataFrame]
+
+    Aplicação
+    ---------
+    spec_extractor = GroupSpecAggreg(frame_size=FRAME_SIZE, hop_length=HOP_LENGTH, 
+                                     signal_col='signal', feature_aggreg=FEATURE_AGGREG)
+    X_spec = spec_extractor.fit_transform(X)
+    """
     
     def __init__(self, frame_size, hop_length, sr, split_freq, freq_cat_aggreg='sum',
                  signal_col='signal', feature_aggreg=['mean', 'median', 'std', 'var', 'max', 'min']):
@@ -529,6 +690,28 @@ class GroupSpecAggreg(BaseEstimator, TransformerMixin):
     
 # Definindo transformador para agregação individual de espectrograma
 class MFCCsAggreg(BaseEstimator, TransformerMixin):
+    """
+    Classe responsável por extrair as componentes MFCCs (primeira e segunda derivada)
+    de sinais de áudio considerando agregados estatísticos pré definidos.
+
+    Parâmetros
+    ----------
+    :param n_mfcc: quantidade de componentes MFCCs extraídas [type: int]
+    :param order: ordem das derivadas extraídas [type: int, default=0]
+    :param signal_col: referência da coluna de armazenamento do sinal na base [type: string, default='signal']
+    :param feature_aggreg: lista de agregadores estatísticos aplicados após a extração da features
+        *default=['mean', 'median', 'std', 'var', 'max', 'min']
+
+    Retorno
+    -------
+    :return X: base de dados contendo os agregados estatísticos para as componentes MFCCs [type: pd.DataFrame]
+
+    Aplicação
+    ---------
+    mfcc_extractor = MFCCsAggreg(frame_size=FRAME_SIZE, hop_length=HOP_LENGTH, 
+                                 signal_col='signal', feature_aggreg=FEATURE_AGGREG)
+    X_mfcc = mfcc_extractor.fit_transform(X)
+    """
     
     def __init__(self, n_mfcc, order=0, signal_col='signal',
                  feature_aggreg=['mean', 'median', 'std', 'var', 'max', 'min']):
@@ -671,4 +854,3 @@ class MFCCsAggreg(BaseEstimator, TransformerMixin):
         
         return X
 
-        
