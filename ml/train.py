@@ -35,6 +35,7 @@ import numpy as np
 import os
 import shutil
 import librosa
+import joblib
 import logging
 from warnings import filterwarnings
 filterwarnings('ignore')
@@ -137,4 +138,30 @@ try:
     logger.info('Base X (sinal) e y (target) gerada com sucesso.')
 except Exception as e:
     logger.error(f'Erro ao aplicar pré-processamento. Exception: {e}')
+    exit()
+
+
+"""
+------------------------------------------------------
+-------- 4. PREPARAÇÃO E EXTRAÇÃO DE FEATURES --------
+               4.2 Aplicação de pipeline
+------------------------------------------------------ 
+"""
+
+# Leitura do pipeline
+logger.debug(f'Realizando leitura do pipeline {PIPELINE_NAME} em {PIPELINES_PATH}')
+try:
+    audio_fe_pipeline = joblib.load(os.path.join(PIPELINES_PATH, PIPELINE_NAME))
+    logger.info(f'Pipeline {PIPELINE_NAME} lido com sucesso.')
+except Exception as e:
+    logger.error(f'Erro ao ler o pipeline de preparação. Exception: {e}')
+    exit()
+
+# Aplicação do pipeline
+logger.debug('Aplicando o pipeline na base de sinais de áudio.')
+try:
+    X_prep = audio_fe_pipeline.fit_transform(X)
+    logger.info(f'Base final preparada com sucesso. Dimensões: {X_prep.shape}')
+except Exception as e:
+    logger.error(f'Erro ao aplicar o pipeline. Exception: {e}')
     exit()
