@@ -18,10 +18,15 @@ específico do projeto.
 4. Preparação e extração de features
     4.1 Pré processamento na base
     4.2 Aplicação de pipeline
+    4.3 Separação em treino, validação e teste
+5. Treinamento de modelo preditivo
+    5.1 Instanciando objetos
+    5.2 Realizando treinamento via pycomp
 """
 
 # Autor: Thiago Panini
 # Data de Criação: 29/03/2021
+
 
 """
 ------------------------------------------------------
@@ -30,6 +35,7 @@ específico do projeto.
 ------------------------------------------------------ 
 """
 
+# Bibliotecas python
 import pandas as pd
 import numpy as np
 import os
@@ -40,9 +46,15 @@ import logging
 from warnings import filterwarnings
 filterwarnings('ignore')
 
-from prep import *
+# Machine Learning
+from lightgbm import LGBMClassifier
+from sklearn.model_selection import train_test_split
 
+# Third-party e self-made
+from prep import *
 from pycomp.log.log_config import log_config
+from pycomp.ml.trainer import ClassificadorMulticlasse
+
 
 """
 ------------------------------------------------------
@@ -92,6 +104,10 @@ N_MCV_FILES = 200
 TRAIN_RATIO = 0.75
 VAL_RATIO = 0.15
 TEST_RATIO = 0.10
+
+# Definindo variáveis relacionadas a modelagem de dados
+METRICS_OUTPUT_PATH = os.path.join(os.getcwd(), 'ml')
+METRICS_OUTPUT_FILENAME = 'metrics.csv'
 
 # Definindo variáveis para visualizações gráficas
 DONUT_COLORS = ['cadetblue', 'salmon', 'seagreen', 'navy']
@@ -161,7 +177,81 @@ except Exception as e:
 logger.debug('Aplicando o pipeline na base de sinais de áudio.')
 try:
     X_prep = audio_fe_pipeline.fit_transform(X)
+    X_prep.drop(SIGNAL_COL, axis=1, inplace=True)
     logger.info(f'Base final preparada com sucesso. Dimensões: {X_prep.shape}')
 except Exception as e:
     logger.error(f'Erro ao aplicar o pipeline. Exception: {e}')
     exit()
+
+
+"""
+------------------------------------------------------
+-------- 4. PREPARAÇÃO E EXTRAÇÃO DE FEATURES --------
+      4.3 Separação em treino, validação e teste
+------------------------------------------------------ 
+"""
+
+# Gerando bases de treino, validação e teste 
+logger.debug(f'Separando base em treino, validação e teste.')
+try:
+    X_train, X_test, y_train, y_test = train_test_split(X_prep, y, test_size=1-TRAIN_RATIO, 
+                                                        random_state=42)
+    X_val, X_test, y_val, y_test = train_test_split(X_test, y_test, test_size=TEST_RATIO/(TEST_RATIO+VAL_RATIO), 
+                                                    random_state=42)
+
+    pct_train = round(100 * (X_train.shape[0] / len(df)), 2)
+    pct_val = round(100 * (X_val.shape[0] / len(df)), 2)
+    pct_test = round(100 * (X_test.shape[0] / len(df)), 2)
+    logger.info(f'Separação feita com sucesso. {pct_train}% treino, {pct_val}% validação e {pct_test}% teste.')
+except Exception as e:
+    logger.error(f'Erro ao aplicar separação da base. Exception: {e}')
+    exit()
+
+
+"""
+------------------------------------------------------
+--------- 5. TREINAMENTO DE MODELO PREDITIVO ---------
+               5.1 Instanciando objetos
+------------------------------------------------------ 
+"""
+
+logger.debug(f'Iniciando preparação do(s) modelo(s).')
+try:
+    # Instanciando modelo a ser treinado
+    lgbm = LGBMClassifier(objective='multiclass', num_class=N_CLASSES)
+
+    # Construindo dicionário para treinamento
+    model_obj = [lgbm]
+    model_names = [type(model).__name__ for model in model_obj]
+    set_classifiers = {name: {'model': obj, 'params': {}} for (name, obj) in zip(model_names, model_obj)}
+    logger.info(f'Preparação para treinamento realizada com sucesso. Modelo(s): {model_names}')
+except Exception as e:
+    logger.error(f'Erro ao preparar modelo(s). Exception: {e}')
+
+
+"""
+------------------------------------------------------
+--------- 5. TREINAMENTO DE MODELO PREDITIVO ---------
+        5.2 Realizando treinamento via pycomp
+------------------------------------------------------ 
+"""
+
+logger.debug(f'Inicializando objeto e realizando treinamento via pycomp')
+try:
+    # Instanciando objeto e treinando modelo
+    trainer = ClassificadorMulticlasse(encoded_target=ENCODED_TARGET)
+    trainer.fit(set_classifiers, X_train, y_train, random_search=False)
+
+    # Gerando report de métricas de performance
+    metrics = trainer.evaluate_performance(X_train, y_train, X_val, y_val, target_names=TARGET_NAMES)
+
+    # Salvando resultado em arquivo csv
+    if not os.path.isdir(METRICS_OUTPUT_PATH):
+        os.makedirs(METRICS_OUTPUT_PATH)
+    metrics.to_csv(os.path.join(METRICS_OUTPUT_PATH, METRICS_OUTPUT_FILENAME), index=False)
+
+    logger.info(f'Modelo(s) treinado(s) e report de métricas gerado com sucesso.')
+except Exception as e:
+    logger.error(f'Erro ao treinar modelo(s). Exception: {e}')
+    exit()
+
