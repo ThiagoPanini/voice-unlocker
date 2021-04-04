@@ -106,8 +106,11 @@ VAL_RATIO = 0.15
 TEST_RATIO = 0.10
 
 # Definindo variáveis relacionadas a modelagem de dados
-METRICS_OUTPUT_PATH = os.path.join(os.getcwd(), 'ml')
-METRICS_OUTPUT_FILENAME = 'metrics.csv'
+MODEL_KEY = 'LGBMClassifier'
+ML_PATH = os.path.join(os.getcwd(), 'ml')
+MODEL_PATH = os.path.join(os.getcwd(), 'model')
+MODEL_FILENAME = 'lgbm_clf.pkl'
+METRICS_FILENAME = 'metrics.csv'
 
 # Definindo variáveis para visualizações gráficas
 DONUT_COLORS = ['cadetblue', 'salmon', 'seagreen', 'navy']
@@ -242,16 +245,25 @@ try:
     trainer = ClassificadorMulticlasse(encoded_target=ENCODED_TARGET)
     trainer.fit(set_classifiers, X_train, y_train, random_search=False)
 
+    # Salvando modelo treinado
+    model = trainer.get_estimator(MODEL_KEY)
+    if not os.path.isdir(MODEL_PATH):
+        os.makedirs(MODEL_PATH)
+    joblib.dump(model, os.path.join(MODEL_PATH, MODEL_FILENAME))
+
     # Gerando report de métricas de performance
     metrics = trainer.evaluate_performance(X_train, y_train, X_val, y_val, target_names=TARGET_NAMES)
 
     # Salvando resultado em arquivo csv
-    if not os.path.isdir(METRICS_OUTPUT_PATH):
-        os.makedirs(METRICS_OUTPUT_PATH)
-    metrics.to_csv(os.path.join(METRICS_OUTPUT_PATH, METRICS_OUTPUT_FILENAME), index=False)
+    if not os.path.isdir(ML_PATH):
+        os.makedirs(ML_PATH)
+    metrics.to_csv(os.path.join(ML_PATH, METRICS_FILENAME), index=False)
 
     logger.info(f'Modelo(s) treinado(s) e report de métricas gerado com sucesso.')
 except Exception as e:
     logger.error(f'Erro ao treinar modelo(s). Exception: {e}')
     exit()
+
+logger.debug(f'Salvando modelo treinado')
+
 
