@@ -111,6 +111,7 @@ ML_PATH = os.path.join(os.getcwd(), 'ml')
 MODEL_PATH = os.path.join(os.getcwd(), 'model')
 MODEL_FILENAME = 'lgbm_clf.pkl'
 METRICS_FILENAME = 'metrics.csv'
+SAVE_METRICS = True
 
 # Definindo variáveis para visualizações gráficas
 DONUT_COLORS = ['cadetblue', 'salmon', 'seagreen', 'navy']
@@ -239,7 +240,7 @@ except Exception as e:
 ------------------------------------------------------ 
 """
 
-logger.debug(f'Inicializando objeto e realizando treinamento via pycomp')
+logger.debug(f'Inicializando objeto e realizando treinamento via pycomp.')
 try:
     # Instanciando objeto e treinando modelo
     trainer = ClassificadorMulticlasse(encoded_target=ENCODED_TARGET)
@@ -252,18 +253,18 @@ try:
     joblib.dump(model, os.path.join(MODEL_PATH, MODEL_FILENAME))
 
     # Gerando report de métricas de performance
-    metrics = trainer.evaluate_performance(X_train, y_train, X_val, y_val, target_names=TARGET_NAMES)
+    if SAVE_METRICS:
+        logger.debug(f'Avaliando performance do modelo treinado.')
+        metrics = trainer.evaluate_performance(X_train, y_train, X_val, y_val, target_names=TARGET_NAMES)
 
-    # Salvando resultado em arquivo csv
-    if not os.path.isdir(ML_PATH):
-        os.makedirs(ML_PATH)
-    metrics.to_csv(os.path.join(ML_PATH, METRICS_FILENAME), index=False)
+        # Salvando resultado em arquivo csv
+        if not os.path.isdir(ML_PATH):
+            os.makedirs(ML_PATH)
+        metrics.to_csv(os.path.join(ML_PATH, METRICS_FILENAME), index=False)
 
-    logger.info(f'Modelo(s) treinado(s) e report de métricas gerado com sucesso.')
+    logger.info(f'Treinamento realizado com sucesso.')
 except Exception as e:
-    logger.error(f'Erro ao treinar modelo(s). Exception: {e}')
+    logger.error(f'Erro ao treinar modelo. Exception: {e}')
     exit()
-
-logger.debug(f'Salvando modelo treinado')
 
 
