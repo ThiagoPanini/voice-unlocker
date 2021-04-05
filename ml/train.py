@@ -113,9 +113,6 @@ MODEL_FILENAME = 'lgbm_clf.pkl'
 METRICS_FILENAME = 'metrics.csv'
 SAVE_METRICS = True
 
-# Definindo variáveis para visualizações gráficas
-DONUT_COLORS = ['cadetblue', 'salmon', 'seagreen', 'navy']
-
 
 """
 ------------------------------------------------------
